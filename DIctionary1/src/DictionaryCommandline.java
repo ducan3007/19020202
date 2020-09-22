@@ -6,7 +6,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.Scanner;
 
-public class DictionaryCommandline {
+public class DictionaryCommandLine {
     static Dictionary dictionary = new Dictionary();
     static DictionaryManagement dictonaryManagement = new DictionaryManagement();
 
