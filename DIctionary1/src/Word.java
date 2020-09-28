@@ -19,4 +19,12 @@ public class Word {
     public String getExplain() {
         return word_explain;
     }
+
+    public void setWord(String word) {
+        word_target = word;
+    }
+
+    public void setExplain(String word) {
+        word_explain = word;
+    }
 }
