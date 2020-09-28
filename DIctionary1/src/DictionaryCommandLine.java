@@ -16,7 +16,7 @@ public class DictionaryCommandLine {
     }
 
     public static void dictionaryBasic() {
-        dictonaryManagement.insertFromCommandline();
+        dictonaryManagement.insertFromCommandLine();
         showAllWords();
     }
 
