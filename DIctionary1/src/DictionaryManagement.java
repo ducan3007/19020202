@@ -7,7 +7,7 @@ public class DictionaryManagement {
     static Scanner input = new Scanner(System.in);
     static Dictionary dictionary = new Dictionary();
 
-    public static void insertFromCommandline() {
+    public static void insertFromCommandLine() {
         System.out.println("Nhap so luong tu : ");
         int n = Integer.parseInt(input.nextLine());
         for (int i = 0; i < n; i++) {
