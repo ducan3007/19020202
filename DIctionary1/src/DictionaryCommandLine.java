@@ -15,12 +15,10 @@ public class DictionaryCommandLine {
         }
     }
 
-    public static void dictionaryBasic() {
-        dictonaryManagement.insertFromCommandLine();
+    public static void dictionaryAdvanced() {
+        dictonaryManagement.insertFromFile();
         showAllWords();
+        dictonaryManagement.dictionaryLookup();
     }
 
-    public static void main(String[] args) {
-        dictionaryBasic();
-    }
 }
