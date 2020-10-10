@@ -1,6 +1,6 @@
 public class DictionaryCommandLine {
     static Dictionary dictionary = new Dictionary();
-    static DictonaryManagement dictonaryManagement = new DictonaryManagement();
+    static DictionaryManagement dictionaryManagement = new DictionaryManagement();
 
     public static void showAllWords() {
         System.out.println("No  | English                       | Vietnamese");
@@ -35,11 +35,11 @@ public class DictionaryCommandLine {
     }
 
     public static void dictionaryAdvanced() {
-        dictonaryManagement.insertFromFile();
+        dictionaryManagement.insertFromFile();
         showAllWords();
-        dictonaryManagement.dictionaryLookup();
-        dictonaryManagement.removeFromCommandLine();
-        dictonaryManagement.modifyFromCommandLine();
+        dictionaryManagement.dictionaryLookup();
+        dictionaryManagement.removeFromCommandLine();
+        dictionaryManagement.modifyFromCommandLine();
     }
 
     public static void menu() {
