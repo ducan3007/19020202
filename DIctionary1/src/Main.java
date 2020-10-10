@@ -5,12 +5,12 @@ import java.util.Scanner;
 
 public class Main {
     public static DictionaryCommandLine dictionaryCommandLine = new DictionaryCommandLine();
-    public static DictionaryManagement dictonaryManagement = new DictionaryManagement();
+    public static DictionaryManagement dictionaryManagement = new DictionaryManagement();
     public static Scanner in = new Scanner(System.in);
 
 
     public static void main(String[] args) {
-        dictonaryManagement.insertFromFile();
+        dictionaryManagement.insertFromFile();
         dictionaryCommandLine.menu();
         String Case;
         loop:
@@ -18,15 +18,15 @@ public class Main {
             Case = in.nextLine();
             switch (Case) {
                 case "1":
-                    dictonaryManagement.dictionaryLookup();
+                    dictionaryManagement.dictionaryLookup();
                     dictionaryCommandLine.menu();
                     break;
                 case "2":
-                    dictonaryManagement.removeFromCommandLine();
+                    dictionaryManagement.removeFromCommandLine();
                     dictionaryCommandLine.menu();
                     break;
                 case "3":
-                    dictonaryManagement.modifyFromCommandLine();
+                    dictionaryManagement.modifyFromCommandLine();
                     dictionaryCommandLine.menu();
                     break;
                 case "4":
@@ -34,11 +34,11 @@ public class Main {
                     dictionaryCommandLine.menu();
                     break;
                 case "5":
-                    dictonaryManagement.dictionaryExportToFile();
+                    dictionaryManagement.dictionaryExportToFile();
                     dictionaryCommandLine.menu();
                     break;
                 case "6":
-                    dictonaryManagement.insertFromCommandLine();
+                    dictionaryManagement.insertFromCommandLine();
                     dictionaryCommandLine.menu();
                     break;
                 case "0":
