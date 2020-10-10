@@ -28,7 +28,7 @@ public class DictionaryManagement {
 
     public static void insertFromFile() {
         try {
-            Scanner in = new Scanner(new BufferedReader(new FileReader("src/dictionaries.txt")));
+            Scanner in = new Scanner(new BufferedReader(new FileReader("Dictionary1/src/dictionaries.txt")));
             while (in.hasNext()) {
                 String temp = in.nextLine().replaceAll("\\s+", " ");
                 for (int i = 0; i < temp.length(); i++) {
