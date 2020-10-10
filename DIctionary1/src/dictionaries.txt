@@ -546,6 +546,7 @@ hearing	Thính giác
 heart	Tim
 heavy	nặng
 height	Chiều cao
+hello xin chào
 help	giúp
 helpful	hữu ích
 hide	giấu
