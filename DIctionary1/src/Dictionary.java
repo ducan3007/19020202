@@ -16,5 +16,6 @@ public class Dictionary {
     }
     public static ArrayList<Word> getListWords() {
         return ListWords;
+        
     }
 }
