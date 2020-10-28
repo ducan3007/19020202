@@ -3,7 +3,7 @@ import java.util.Collections;
 import java.util.Comparator;
 
 public class Dictionary {
-    private static ArrayList<Word> ListWords = new ArrayList<Word>();
+    private static ArrayList<Word> ListWords = new ArrayList<Word>() ;
     public static int isContain(String temp) {
         Comparator<Word> comp = new Comparator<Word>() {
             public int compare(Word w1, Word w2) {
