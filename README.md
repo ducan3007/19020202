@@ -1,2 +1,4 @@
 # Dictionary-19020202
-- Demo: https://docs.google.com/presentation/d/1X4cUgPxPVR_Njux6XRGEbcPC6utj4LxDWxUQi8rmtS8/edit?usp=sharing
+
+![alt text](https://github.com/ducan3007/temp/blob/master/DIctionary1/src/Demo-Dictionary-19020202.png)
+
