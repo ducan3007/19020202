@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="198.0" prefWidth="487.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.ModifyController">
+   <children>
+      <Label layoutX="4.0" prefHeight="59.0" prefWidth="379.0" text="Nhập từ hoặc cụm từ muốn sửa:">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <Label layoutX="5.0" layoutY="106.0" prefHeight="31.0" prefWidth="363.0" text="Thay đổi nghĩa:">
+         <font>
+            <Font size="21.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Word" layoutX="10.0" layoutY="56.0" onAction="#getWord" prefHeight="38.0" prefWidth="472.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Explain" layoutX="10.0" layoutY="146.0" onAction="#getDefinition" prefHeight="38.0" prefWidth="472.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
